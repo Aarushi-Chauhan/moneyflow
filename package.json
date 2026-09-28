@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": ". ~/.nvm/nvm.sh && nvm use 20 && next dev",
-    "build": ". ~/.nvm/nvm.sh && nvm use 20 && next build",
+    "build": "next build",
     "start": ". ~/.nvm/nvm.sh && nvm use 20 && next start",
     "lint": ". ~/.nvm/nvm.sh && nvm use 20 && eslint"
   },
