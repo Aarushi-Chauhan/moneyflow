@@ -103,12 +103,18 @@ export default function LoginPage() {
               </div>
             </form>
           </CardContent>
-          <CardFooter className="flex justify-center pt-2 pb-6 animate-fade-in-up delay-500 relative z-10">
+          <CardFooter className="flex flex-col items-center space-y-3 pt-2 pb-6 animate-fade-in-up delay-500 relative z-10">
             <p className="text-sm text-muted-foreground font-medium">
               Don't have an account?{" "}
               <Link href="/register" className="text-[#8B5CF6] hover:text-[#2563EB] hover:opacity-80 hover:underline font-bold transition-colors">
                 Create one
               </Link>
+            </p>
+            <p className="text-sm text-muted-foreground font-medium">
+              Need help?{" "}
+              <a href="/user-guide.pdf" target="_blank" rel="noopener noreferrer" className="text-[#06B6D4] hover:text-[#2563EB] hover:opacity-80 hover:underline font-bold transition-colors">
+                View User Guide (PDF)
+              </a>
             </p>
           </CardFooter>
         </Card>
